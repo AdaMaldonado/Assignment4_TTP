@@ -8,12 +8,14 @@ firstButtonEl.addEventListener(
   "click", 
   function() {
     firstTextEl.textContent ="I'm right"
+    secondTextEl.textContent=""
   }
 )
 
 secondButtonEl.addEventListener(
   "click", 
   function() {
+    firstTextEl.textContent=""
     secondTextEl.textContent ="No, I'm right!"
   }
 )
