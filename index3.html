@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Question 3</title>
+        <meta charset="UTF-8">
+        <title>Question 3 - The Form</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <form>
-            <label for="username">Username: </label>
-            <input id="username" type="text" placeholder="Enter Username">
-            <label for="">Email: </label>
-            <input id="email" type="text" placeholder="Enter Email">
-            <label for="password">Password: </label>
-            <input id="password" type="text" placeholder="Enter Password">
+        <script src="script.js"></script>
+        <form onsubmit="return validate()">
+            <input id="username" type="text" placeholder="Enter Username" name="username">
+            <input id="email" type="text" placeholder="Enter Email" name="email">
+            <input id="password" type="password" placeholder="Enter Password">
             <input type="submit" id="submit-btn">
         </form>
+        <h1 id="validated"></h1>
     </body>
 </html>

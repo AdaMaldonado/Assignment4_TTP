@@ -23,3 +23,20 @@ hoverTextEl.addEventListener(
     alert("Hey, I told you not to hover over me!")
   }
 )
+
+
+
+/*--------------Function to validate form password info---------*/
+
+
+function validate(){
+  let pass = document.getElementById("password")
+  const valiEl = document.getElementById("validated")
+  if(pass.value!=="12345678"){
+      alert("Acess Denied. Please check you entries")
+  }
+  else{
+    valiEl.innerText = "Access Granted"
+    return false
+  }
+}
