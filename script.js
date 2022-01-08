@@ -1,27 +1,17 @@
 /*-----------JavaScript for Question 1------------*/
 
-let firstButtonEl = document.getElementById("firstButton")
-let secondButtonEl = document.getElementById("secondButton")
-
 let firstTextEl = document.getElementById("firstText")
 let secondTextEl = document.getElementById("secondText")
 
-firstButtonEl.addEventListener(
-  "click", 
-  function() {
-    firstTextEl.textContent ="I'm right"
-    secondTextEl.textContent=""
-  }
-)
+function firstFunction() {
+  firstTextEl.innerHTML ="I'm right" 
+  secondTextEl.innerHTML =""
+}
 
-secondButtonEl.addEventListener(
-  "click", 
-  function() {
-    firstTextEl.textContent=""
-    secondTextEl.textContent ="No, I'm right!"
-  }
-)
-
+function secondFunction() {
+  firstTextEl.innerHTML ="" 
+  secondTextEl.innerHTML ="No, I'm right!"
+}
 
 /*----------JavaScript for Question 2------------*/
 
