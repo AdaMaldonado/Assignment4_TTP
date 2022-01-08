@@ -7,16 +7,53 @@ div {
 p {
   padding-left: 5px;
 }
+/* start of form styling */
+#formEl{
+  background-color: wheat;
+}
 
-input[type=text]{
+
+
+form{
+  width: 300px;
+  border: solid;
+  position:relative;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 50px;
+  border-radius: 30px;
+  background-color: turquoise;
+}
+form input{
   display: list-item;
-  margin-bottom: 20px;
-  padding: 10px;
-}
-label{
-  font-size: larger;
+  padding: 20px 40px;
+  margin: 20px auto;
+  border-radius: 30px;
+  font-size: large;
+
 }
 
-input[type=submit]{
-  padding: 10px;
+#formStyle{
+  display: block;
 }
+
+#formEl h1{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: -20%;
+  text-align: center;
+}
+
+#submit-btn{
+  color: white;
+  background-color: red;
+}
+
+/* End of form styling */
+
+
+
+
+
+
