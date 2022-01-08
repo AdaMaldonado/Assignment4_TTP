@@ -36,7 +36,7 @@ function validate(){
       alert("Acess Denied. Please check you entries")
   }
   else{
-    valiEl.innerText = "Access Granted"
+    valiEl.innerText = "Access Granted!"
     return false
   }
 }
