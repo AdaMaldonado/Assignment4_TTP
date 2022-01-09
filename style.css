@@ -31,7 +31,7 @@ form input{
 #formEl h1{
   width: 400px;
   margin: 0 auto;
-  margin-top: -20%;
+  margin-top: 0%;
   text-align: center;
 }
 
@@ -93,6 +93,25 @@ form input{
   width: 290px;
   margin:500px auto;
 
+}
+
+/* end of styling for dont hover */
+
+/* start of styling for sphere volume */
+
+#radvol{
+  background-color: tomato;
+}
+
+#inEl{
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  border-radius: 40%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px
 }
 
 

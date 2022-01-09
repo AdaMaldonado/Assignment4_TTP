@@ -40,3 +40,14 @@ function validate(){
     return false
   }
 }
+
+
+
+/*---------function to calculate volume of sphere-------*/
+
+function cirVolume(){
+  const rad = document.getElementById("inp").value
+  const out = document.getElementById("vol")
+  let res=(4/3) * Math.PI * Math.pow(Number(rad),3)
+  out.innerHTML ="Volume: " + res
+}
