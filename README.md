@@ -18,4 +18,7 @@ Assignment #4: DOM Challenges II
 * if the password is incorrect, send an alert message
 * Your page should also include an h1 tag. If the information in the form is correct, have Javascript change the text in the h1.HTML page.
 
-  * 
+5) Add a CSS stylesheet that styles all of your pages.
+
+6) BONUS: Create an HTML page with a form that asks the user to input the value of a sphere's radius. Write Javascript that gives them back the volume of the sphere. (There are many different ways to execute this. You can give the user information back in another input box on the page, as an alert, or any other way you can think of. You can look up how to use the Javascript Math object to simplify your calculations.)
+
