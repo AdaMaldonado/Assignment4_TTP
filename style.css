@@ -80,5 +80,20 @@ form input{
   margin-left: 40px;
 }
 
+/* End of styling for battling buttons */
+
+
+/* start of styling for dont hover */
+
+#dontHover{
+  background-color: #bfdb9b;
+}
+#hoverText{
+  
+  width: 290px;
+  margin:500px auto;
+
+}
+
 
 
