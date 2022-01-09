@@ -1,24 +1,13 @@
-div {
-  display: flex;
-  align-items: center;
-  height: 50px;
-}
 
-p {
-  padding-left: 5px;
-}
 /* start of form styling */
 #formEl{
   background-color: wheat;
 }
 
-
-
 form{
   width: 300px;
-  border: solid;
+  border: solid 5px;
   position:relative;
-  margin-top: 25%;
   margin-left: auto;
   margin-right: auto;
   padding: 100px 50px;
@@ -31,6 +20,7 @@ form input{
   margin: 20px auto;
   border-radius: 30px;
   font-size: large;
+  border-style: groove;
 
 }
 
@@ -53,7 +43,42 @@ form input{
 /* End of form styling */
 
 
+/* start of battling buttons styling */
 
+#fightMe{
+  background-color: #7c94de;
+}
+
+#navBar{
+  background-color: white;
+  width: 300px;
+  padding: 10px;
+  margin:0  0 auto;
+  border: dashed;
+  background-color: steelblue;
+
+
+}
+
+#battle{
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 400px;
+  justify-content: center;
+  gap: 300px;
+}
+
+#secondButton, #firstButton{
+  padding: 50px;
+  font-size: x-large;
+  border-radius: 100%;
+  border-style:none;
+}
+
+#battle h2{
+  margin-left: 40px;
+}
 
 
 
